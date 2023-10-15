@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActivitylifeCycle1</string>
+    <string name="new_app_name">Dragon ball </string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="password">password</string>
+    <string name="logiin">logiin</string>
+    <string name="log_in">log_in</string>
+    <string name="forgot_password">forgot_password</string>
+    <string name="register_yourself">register_yourself</string>
+    <string name="login">log in</string>
+    <string name="preference_file_name">Dragon preferences</string>
+
+</resources>

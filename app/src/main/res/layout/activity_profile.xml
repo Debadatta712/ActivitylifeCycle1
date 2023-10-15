@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imggoku"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/img"
+    android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Son Goku"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/imggoku"
+       android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gokku@324dragonball.com"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/imggoku"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txtphonennumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9937295085"
+        android:layout_toRightOf="@id/imggoku"
+        android:textSize="18sp"
+        android:layout_below="@id/txtemail"
+        android:layout_marginTop="15dp"/>
+<Button
+    android:id="@+id/btnmoreifno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="more information"
+    android:textSize="18sp"
+    android:layout_below="@id/imggoku"/>
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

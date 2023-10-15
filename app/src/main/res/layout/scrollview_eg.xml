@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/mycolor"/>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imggoku"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imggoku"
+                android:text="Son Goku"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imggoku"
+                android:text="goku@325dragonball.com"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtphonennumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemail"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imggoku"
+                android:text="9937295078"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imggohan"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_2" />
+
+            <TextView
+                android:id="@+id/txtNamegohan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imggohan"
+                android:text="Son Gohan"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtemailgohan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNamegohan"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imggohan"
+                android:text="gohan@324dragonball.com"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtphonennumbergohan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemailgohan"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imggohan"
+                android:text="9937295085"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgvegeta"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_3" />
+
+            <TextView
+                android:id="@+id/txtNamevegeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgvegeta"
+                android:text="Vegeta"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtemailvegeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNamevegeta"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgvegeta"
+                android:text="vegeta@324dragonball.com"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtphonennumbervegeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemailvegeta"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgvegeta"
+                android:text="9937295674"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgpiccolo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/txtNamepiccolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgpiccolo"
+                android:text="Piccolo"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtemailpiccolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNamepiccolo"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgpiccolo"
+                android:text="picoolo@324dragonball.com"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtphonennumberpiccolo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemailpiccolo"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgpiccolo"
+                android:text="4537295085"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imgfrizza"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/img_5" />
+
+            <TextView
+                android:id="@+id/txtNamefrizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgfrizza"
+                android:text="Frizza"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtemailfrizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNamefrizza"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgfrizza"
+                android:text="gohan@324dragonball.com"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtphonennumberfrizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemailfrizza"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgfrizza"
+                android:text="6578295085"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
